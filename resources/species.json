@@ -1,17 +1,29 @@
 {
     "species": {
-        "species1": [],
-        "species2": []
+        "Cat": ["dom_inh"],
+        "Robot": ["no_breed"],
+        "Moth": ["rec_inh"],
+        "Butterfly": ["rec_inh"],
+        "Lavalamp": ["exc_breed"],
+        "Elements": ["rec_breed"],
+        "Jelly": ["exc_breed"]
     },
-    "ran_weights": [1, 1],
+    "ran_weights": [10, 2, 6, 6, 3, 4, 2],
     "in_weights": {
-        "species1": [1, 1],
-        "species2": [1, 1]
+        "Cat": [1, 0, 1, 1, 0, 1, 1],
+        "Robot": [1, 1, 1, 1, 1, 1, 1],
+        "Moth": [1, 1, 1, 1, 1, 1, 1],
+        "Butterfly": [1, 1, 1, 1, 1, 1, 1],
+        "Lavalamp": [1, 1, 1, 1, 1, 1, 1],
+        "Elements": [1, 1, 1, 1, 1, 1, 1],
+        "Jelly": [1, 1, 1, 1, 1, 1, 1]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",
         "ran_weights are used in species randomization, in_weights are used in inheritance.",
         "species name before the weights is the parent's species, the weights from both parents are added together.",
         "all weights follow the order of the species list."
+
+
     ]
 }
