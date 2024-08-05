@@ -5,18 +5,18 @@
         "Moth": ["rec_inh"],
         "Butterfly": ["rec_inh"],
         "Lavalamp": ["exc_breed"],
-        "Elements": ["rec_breed"],
+        "Element": ["rec_breed"],
         "Jelly": ["exc_breed"]
     },
     "ran_weights": [10, 2, 6, 6, 3, 4, 2],
     "in_weights": {
-        "Cat": [1, 0, 1, 1, 0, 1, 1],
+        "Cat": [5, 0, 0, 0, 0, 0, 0],
         "Robot": [1, 1, 1, 1, 1, 1, 1],
-        "Moth": [1, 1, 1, 1, 1, 1, 1],
-        "Butterfly": [1, 1, 1, 1, 1, 1, 1],
-        "Lavalamp": [1, 1, 1, 1, 1, 1, 1],
-        "Elements": [1, 1, 1, 1, 1, 1, 1],
-        "Jelly": [1, 1, 1, 1, 1, 1, 1]
+        "Moth": [0, 0, 5, 1, 0, 0, 0],
+        "Butterfly": [0, 0, 1, 5, 0, 0, 0],
+        "Lavalamp": [0, 0, 0, 0, 5, 0, 0],
+        "Elements": [0, 0, 0, 0, 0, 5, 0],
+        "Jelly": [0, 0, 0, 0, 0, 0, 5]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",
