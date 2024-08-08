@@ -183,8 +183,8 @@
 		"base_permanent_condition": 90,
 		"base_male_tortie": 13,
 		"base_female_tortie": 4,
-		"base_heterochromia": 120,
-		"direct_inheritance": 15,
+		"base_heterochromia": 60,
+		"direct_inheritance": 6,
 		"wildcard_tortie": 9,
 		"vit_chance": 8,
 		"random_point_chance": 5
@@ -200,7 +200,7 @@
 		]
 	},
 	"accessory_generation": {
-		"base_acc_chance": 150,
+		"base_acc_chance": 90,
 		"med_modifier": -80,
 		"baby_modifier": -20,
 		"elder_modifier": 20,
