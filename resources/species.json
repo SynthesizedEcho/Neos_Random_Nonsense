@@ -1,12 +1,12 @@
 {
     "species": {
-        "Cat": ["dom_inh"],
+        "Cat": [],
         "Robot": ["no_breed"],
-        "Moth": ["rec_inh"],
-        "Butterfly": ["rec_inh"],
-        "Lavalamp": ["exc_breed"],
-        "Element": ["rec_breed"],
-        "Jelly": ["exc_breed"]
+        "Moth": [],
+        "Butterfly": [],
+        "Lavalamp": [],
+        "Element": [],
+        "Jelly": []
     },
     "ran_weights": [10, 2, 6, 6, 3, 4, 2],
     "in_weights": {
