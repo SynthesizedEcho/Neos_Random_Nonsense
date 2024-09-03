@@ -180,10 +180,10 @@
 		]
 	},
 	"cat_generation": {
-		"base_permanent_condition": 90,
+		"base_permanent_condition": 100,
 		"base_male_tortie": 13,
 		"base_female_tortie": 4,
-		"base_heterochromia": 60,
+		"base_heterochromia": 80,
 		"direct_inheritance": 6,
 		"wildcard_tortie": 9,
 		"vit_chance": 8,
